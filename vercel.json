@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        { "source": "/", "destination": "https://brave.com" },
+        {
+            "source": "/:match*",
+            "destination": "https://brave.com/:match*"
+        }
+    ],
+    "github": {
+        "silent": true
+    }
+}
